@@ -46,3 +46,41 @@ footer {
 footer ul {
   text-align: center;
 }
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  margin: 50px;
+  padding: 50px;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 200px;
+  grid-template-areas: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    flex-direction: column;
+    width: 100%;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "Job 1"
+      "Job 2"
+    ;
+  }
+}
+
+#categoryGrid {
+  grid-template-rows: 300px 300px 300px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "Job 1"
+    "Job 2"
+  ;
+}
