@@ -80,7 +80,7 @@ text-align: center;
   display: grid;
   grid-template-rows: 200px;
   grid-template-columns: 200px;
-  grid-template-areas: auto;
+  grid-template-areas: none;
   background-color: whitesmoke;
 }
 
