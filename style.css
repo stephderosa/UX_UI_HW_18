@@ -35,8 +35,17 @@ nav ul {
 }
 
 .content {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
+  text-align: left;
+}
+
+.workGrid img {
+  align-items: center;
+  background-color: gray;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 footer {
@@ -60,7 +69,7 @@ text-align: center;
 .flexContainer {
   display: flex;
   flex-direction: row;
-  width: 33%;
+  width: 80%;
   margin: 50px;
   padding: 50px;
   background-color: whitesmoke;
@@ -71,7 +80,7 @@ text-align: center;
   display: grid;
   grid-template-rows: 200px;
   grid-template-columns: 200px;
-  grid-template-areas: none;
+  grid-template-areas: auto;
   background-color: whitesmoke;
 }
 
