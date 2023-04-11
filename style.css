@@ -5,7 +5,6 @@ body {
 .inline-block {
   display: inline-block;
   vertical-align: top;
-  
 }
 
 .logo {
@@ -42,9 +41,19 @@ nav ul {
 
 footer {
     background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
   }
 
 footer ul {
+  text-align: center;
+}
+
+.myWork {
+text-align: center;
+}
+
+.mySkills {
   text-align: center;
 }
 
@@ -54,6 +63,8 @@ footer ul {
   width: 33%;
   margin: 50px;
   padding: 50px;
+  background-color: whitesmoke;
+  border-radius: 50px;
 }
 
 .workGrid {
@@ -61,6 +72,7 @@ footer ul {
   grid-template-rows: 200px;
   grid-template-columns: 200px;
   grid-template-areas: none;
+  background-color: whitesmoke;
 }
 
 /* Mobile Styles, light blue just to confirm media query works */
